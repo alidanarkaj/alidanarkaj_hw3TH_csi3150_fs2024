@@ -28,7 +28,7 @@
 }
 
 .page-1 .hero .title {
-  font-size: 120px;
+  font-size: 150px;
   color: var(--font-color-secondary);
   font-family: "Playfair Display";
 }
@@ -44,8 +44,8 @@
 
 /* albania on your list? */
 .page-2 {
-  background: url(../assets/page-2.jpg);
-  height: 80vh;
+  background: url(../assets/page-5.jpg);
+  height: 70vh;
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -55,11 +55,12 @@
 
 .page-2 .intro-left {
   padding: 50px;
-  width: 500px;
+  width: 600px;
 }
 .page-2 .intro-left h2 {
-  font-size: 70px;
+  font-size: 90px;
   font-family: "Playfair Display";
+  line-height: 80px;
   color: var(--font-color-secondary);
 }
 
@@ -68,7 +69,7 @@
   width: 500px;
 }
 
-.page-2 .intro-right .intro-desc {
+.page-2 .intro-right p {
   font-size: 18px;
   text-align: justify;
   color: var(--font-color-primary);
@@ -76,22 +77,23 @@
 }
 
 .page-2 .intro-right button {
-  padding: 5px;
+  padding: 5px 20px 5px 20px;
   font-family: "Playfair Display";
   background-color: var(--font-color-secondary);
 }
 
 .page-3 {
-  background: url(../assets/page-3.jpg);
-  height: 90vh;
+  background: url(../assets/page-2.jpg);
+  height: 80vh;
   background-size: cover;
   padding: 40px;
   text-align: center;
 }
 
 .page-3 h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Playfair Display";
+  line-height: 45px;
   color: var(--font-color-secondary);
   margin-bottom: 30px;
 }
@@ -118,21 +120,83 @@
 
 .page-3 h3 {
   color: var(--backup-color);
-  padding-left: 10px;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 80px;
 }
 
 .page-3 .icon {
-  font-size: 40px;
+  position: absolute;
+  padding-left: 10px;
+  bottom: 5px;
+  font-size: 80px;
   color: var(--font-color-secondary);
 }
 
 .page-3 button {
-  margin-top: 40px;
-  padding: 5px;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
   font-family: "Playfair Display";
   color: var(--backup-color);
   background-color: var(--font-color-secondary);
 }
+
+/* biggest paragraph page */
+.page-4 {
+  background: url(../assets/page-4.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page-4 .recommendations {
+  padding: 50px;
+  width: 600px;
+}
+.page-4 .recommendations h2 {
+  font-size: 90px;
+  font-family: "Playfair Display";
+  line-height: 85px;
+  color: var(--font-color-secondary);
+}
+
+.page-4 .content {
+  padding: 50px;
+  width: 500px;
+}
+
+.page-4 .content p {
+  font-size: 18px;
+  text-align: justify;
+  color: var(--backup-color);
+  padding-bottom: 20px;
+}
+
+.page-4 h3 {
+  font-family: "Playfair Display";
+  color: var(--backup-color);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.page-5 {
+  background: url(../assets/page-3.jpg);
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
 
 .page-6 .author-info img {
   max-width: 150px;
