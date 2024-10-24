@@ -6,18 +6,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  /* color variables */
-  --bg-primary: #413c58; /* english violet */
-  --bg-secondary: #a3c4bc; /* ash gray */
-  --font-color-primary: #bfd7b5; /* tea green */
-  --font-color-secondary: #e7efc5; /* cream */
-  --backup-color: #f2dda4; /* vanilla */
+  --font-color-primary: #2a2828;
+  --font-color-secondary: #dc622d;
 }
 
+/* big albania title page */
 .page-1 {
   background: url(../assets/page-1.jpg);
   height: 100vh;
   background-size: cover;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,10 +23,93 @@
 }
 
 .page-1 .hero .logo {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .page-1 .hero .title {
-    font-size: 90px;
-    font-family: "Playfair Display" ;
+  font-size: 120px;
+  color: var(--font-color-secondary);
+  font-family: "Playfair Display";
+}
+
+.page-1 .hero .subtitle {
+  color: var(--font-color-primary);
+}
+
+.page-1 .hero .icon {
+  font-size: 150px;
+  color: var(--font-color-secondary);
+}
+
+/* albania on your list? */
+.page-2 {
+  background: url(../assets/page-2.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page-2 .intro-left {
+  padding: 50px;
+  width: 500px;
+}
+.page-2 .intro-left .section-heading {
+  font-size: 70px;
+  font-family: "Playfair Display";
+  color: var(--font-color-secondary);
+}
+
+.page-2 .intro-right {
+  padding: 50px;
+  width: 500px;
+}
+
+.page-2 .intro-right .intro-desc {
+  font-size: 18px;
+  text-align: justify;
+  color: var(--font-color-primary);
+  padding-bottom: 20px;
+}
+
+.page-2 .intro-right button {
+  padding: 5px;
+    font-family: "Playfair Display";
+  background-color: var(--font-color-secondary);
+}
+
+.page-3 {
+  background: url(../assets/page-3.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.page-3 .section-heading {
+
+  align-items: center;
+  font-size: 40px;
+  font-family: "Playfair Display";
+  color: var(--font-color-secondary);
+  width: 500px;
+}
+
+.page-3 .activities-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page-3 .container img{
+  max-width: 200px;
+}
+
+
+
+
+
+.page-6 .author-info img {
+  max-width: 150px;
 }
