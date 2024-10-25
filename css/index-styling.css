@@ -39,8 +39,15 @@
 }
 
 .page-1 .hero .icon {
+  display: inline-block;
   font-size: 150px;
   color: var(--font-color-secondary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.page-1 .hero .icon:hover {
+  color: var(--backup-color);
 }
 
 /* albania on your list? */
@@ -81,6 +88,14 @@
   padding: 5px 20px 5px 20px;
   font-family: "Playfair Display";
   background-color: var(--font-color-secondary);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.page-2 .intro-right button:hover {
+  background-color: var(--backup-color);
 }
 
 .page-3 {
@@ -134,6 +149,12 @@
   bottom: 5px;
   font-size: 80px;
   color: var(--font-color-secondary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.page-3 .icon:hover {
+  color: var(--backup-color);
 }
 
 .page-3 button {
@@ -142,6 +163,14 @@
   font-family: "Playfair Display";
   color: var(--backup-color);
   background-color: var(--font-color-secondary);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.page-3 button:hover {
+  background-color: var(--font-color-primary);
 }
 
 /* biggest paragraph page */
@@ -262,8 +291,15 @@
 }
 
 .page-6 .icon {
+  display: inline-block;
   font-size: 140px;
   color: var(--font-color-secondary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.page-6 .icon:hover {
+  color: var(--backup-color);
 }
 
 .page-7 {
@@ -331,11 +367,56 @@ footer .icon-wrapper a:hover {
 }
 
 footer .right-footer {
-flex: 1;
-padding-right: 20px;
+  flex: 1;
+  padding-right: 20px;
 }
 
 footer .right-footer form {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+}
+
+footer .right-footer input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 2px solid var(--backup-color);
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+footer .right-footer textarea {
+  height: 150px;
+}
+
+footer .right-footer ::placeholder {
+  color: var(--backup-color);
+}
+
+/* when you click in each text box, the border color changes */
+footer .right-footer input:focus,
+textarea:focus {
+  border: 2px solid var(--font-color-secondary);
+}
+
+footer .right-footer button {
+  width: 100px;
+  padding: 5px 20px 5px 20px;
+  font-family: "Playfair Display";
+  color: var(--backup-color);
+  background-color: var(--font-color-secondary);
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+footer .right-footer button:hover {
+  background-color: var(--font-color-primary);
+
 }
