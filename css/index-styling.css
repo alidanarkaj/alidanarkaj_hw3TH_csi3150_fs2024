@@ -31,6 +31,7 @@
   font-size: 150px;
   color: var(--font-color-secondary);
   font-family: "Playfair Display";
+  font-weight: 700;
 }
 
 .page-1 .hero .subtitle {
@@ -136,7 +137,7 @@
 }
 
 .page-3 button {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 5px 20px 5px 20px;
   font-family: "Playfair Display";
   color: var(--backup-color);
@@ -185,7 +186,7 @@
 }
 
 .page-5 {
-  background: url(../assets/page-3.jpg);
+  background: url(../assets/page-6.jpg);
   height: 60vh;
   background-size: cover;
   display: flex;
@@ -194,10 +195,74 @@
   justify-content: space-evenly;
 }
 
+.page-5 .stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 125px;
+}
 
+.page-5 .stat-wrapper {
+  background-color: var(--font-color-primary);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.page-5 h3 {
+  color: var(--font-color-secondary);
+  font-family: "Playfair Display";
+  font-size: 62px;
+  margin-bottom: 15px;
+}
 
+.page-5 p {
+  color: var(--backup-color);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.page-6 {
+  background: url(../assets/page-3.jpg);
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-6 .author-info {
+  max-width: 500px;
+  margin-top: 50px;
+}
 
 .page-6 .author-info img {
-  max-width: 150px;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.page-6 p {
+  color: var(--backup-color);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.page-6 h3 {
+  font-family: "Playfair Display";
+  color: var(--backup-color);
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.page-6 .icon {
+  font-size: 140px;
+  color: var(--font-color-secondary);
 }
